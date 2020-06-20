@@ -8,10 +8,27 @@ body {
   box-sizing: border-box;
 }
 
+.btn {
+  font-size: 18px;
+  padding: 15px 25px;
+  min-width: 160px;
+  border-radius: 5px;
+  display: inline-block;
+  background-color: #29df25;
+  color: #fff;
+  border: 2px solid #29df25;
+}
+.btn:hover {
+  background-color: #1d9c1a;
+  color: #afb3aa;
+  border: 2px solid #1d9c1a;
+}
+
 /*======estilos para la barra de menu=======*/
 .navbar {
   height: 60px;
   width: 100%;
+  position: fixed;
 }
 .navbar .navbar-dark {
   color: #ffffff !important;
@@ -47,6 +64,19 @@ body {
 .social ion-icon {
   font-size: 25px;
   color: #ffd31d;
+}
+
+/*======estilos para el cover======*/
+.cover {
+  background-image: url("../img/cover.png");
+  background-size: cover;
+  min-height: 600px;
+  padding-top: 150px;
+  color: #ffffff;
+  text-align: center;
+}
+.cover h1 {
+  font-size: 100px;
 }
 
 /*# sourceMappingURL=estilos.css.map */
