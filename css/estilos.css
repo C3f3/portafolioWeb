@@ -1,0 +1,23 @@
+/*=====estilos basicos=====*/
+body {
+  color: #ffffff;
+  background-color: #1a1a1a;
+  overflow-x: hidden;
+  transition: all 200ms linear;
+  position: relative;
+  box-sizing: border-box;
+}
+
+/*======estilos para la barra de menu=======*/
+.navbar {
+  height: 60px;
+  width: 100%;
+}
+.navbar .navbar-dark {
+  color: #ffffff !important;
+}
+.navbar .bg-dark {
+  background-color: #343a40 !important;
+}
+
+/*# sourceMappingURL=estilos.css.map */
