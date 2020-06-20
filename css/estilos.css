@@ -40,4 +40,13 @@ body {
   border-bottom: 2px solid #1CA6A1;
 }
 
+.social {
+  height: 40px;
+  margin: auto 5px;
+}
+.social ion-icon {
+  font-size: 25px;
+  color: #ffd31d;
+}
+
 /*# sourceMappingURL=estilos.css.map */
