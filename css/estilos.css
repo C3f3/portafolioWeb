@@ -20,4 +20,11 @@ body {
   background-color: #343a40 !important;
 }
 
+.navbar-brand {
+  font-size: 28px;
+}
+.navbar-brand span {
+  color: #ff5200;
+}
+
 /*# sourceMappingURL=estilos.css.map */
